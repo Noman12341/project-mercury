@@ -1,0 +1,6 @@
+#speciality-card {
+    cursor: pointer;
+}
+#speciality-card > h2 {
+    min-height: 77px;
+}

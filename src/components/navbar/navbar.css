@@ -1,0 +1,11 @@
+#header {
+    padding: 0 140px;
+}
+.header-wrapper-options {
+    gap: 20px;
+}
+.header-wrapper-options a {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 600;
+}
