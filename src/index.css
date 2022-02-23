@@ -4,5 +4,7 @@
   --font-family: 'Roboto', sans-serif;
 
   /* colors */
-  --color-black: "040C18"
+  --color-white: "#fffff";
+  --color-black: "040C18";
+  --color-bg-main: rgb(151, 125, 185);
 }

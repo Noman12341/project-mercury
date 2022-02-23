@@ -4,7 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import { Home } from './pages';
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

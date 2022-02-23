@@ -5,6 +5,7 @@ import img2 from '../../assets/images/img-2.png';
 import img3 from '../../assets/images/img-3.png';
 import img4 from '../../assets/images/img-4.png';
 import { Row, Col } from 'react-bootstrap';
+import { ContactUs, WhoWeAre } from '../../sections';
 
 const specalityCardsList = [
     { id: 1, imgUrl: img1, title: "OIL & GAS", decription: "Leading engagement in a number of oil & gas installation projects" },
@@ -27,6 +28,11 @@ function Home() {
 
                 </Row>
             </section>
+            <div className='divider' />
+            <WhoWeAre />
+
+            {/* contact us section */}
+            <ContactUs />
         </div>
     )
 }

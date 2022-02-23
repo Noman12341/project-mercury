@@ -1,0 +1,10 @@
+#contact-us-section {
+    background-color: var(--color-bg-main);
+    padding-top: 80px;
+}
+.contact-us-heading {
+    border: 2px solid rgba(0,0,0,0.1);
+    font-weight: 700;
+    padding: 40px 60px;
+    
+}
