@@ -12,9 +12,54 @@ function Navbar() {
                     </Link>
                 </div>
                 <div className="d-flex align-items-center header-wrapper-options">
-                    <div><Link to="/">Home</Link></div>
-                    <div><Link to="/">Home</Link></div>
-                    <div><Link to="/">Home</Link></div>
+                    <Link className='nav-link' to="/">
+                        Home
+                    </Link>
+                    <div>
+                        <div className="nav-dropdown">
+                            What We Are ?
+                            <div className="nav-dropdown-container">
+                                <Link className="drop-down-link" to="/about-us">About Us</Link>
+                                <Link className="drop-down-link" to="/">Values</Link>
+                                <Link className="drop-down-link" to="/">Management</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="nav-dropdown">
+                            What we do ?
+                            <div className="nav-dropdown-container">
+                                <Link className="drop-down-link" to="/">Oil & Gas</Link>
+                                <Link className="drop-down-link" to="/">Power & Energy</Link>
+                                <Link className="drop-down-link" to="/">Steel</Link>
+                                <Link className="drop-down-link" to="/">Textile</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="nav-dropdown">
+                            Comodities
+                            <div className="nav-dropdown-container">
+                                <Link className="drop-down-link" to="/">Coal</Link>
+                                <Link className="drop-down-link" to="/">Wheat</Link>
+                                <Link className="drop-down-link" to="/">Petrolium</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <Link className='nav-link' to="/">
+                        Galary
+                    </Link>
+                    <div>
+                        <div className="nav-dropdown">
+                            Contact Us
+                            <div className="nav-dropdown-container">
+                                <Link className="drop-down-link" to="/">Russia</Link>
+                                <Link className="drop-down-link" to="/">Dubai</Link>
+                                <Link className="drop-down-link" to="/">Pakistan</Link>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </header>

@@ -9,3 +9,35 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+/* drop down */
+.nav-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.nav-dropdown-container {
+    display: none;
+    position: absolute;
+    left: -10px;
+    top: 25px;
+    z-index: 2;
+    background-color: white;
+    padding: 14px;
+    width: 220px;
+}
+.nav-dropdown:hover .nav-dropdown-container {
+    display: block;
+}
+.drop-down-link {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    font-weight: 300!important;
+    transition: color .4s;
+}
+.drop-down-link:hover {
+    color: black!important;
+}
+.nav-link {
+    font-weight: 400!important;
+}
