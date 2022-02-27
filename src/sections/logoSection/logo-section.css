@@ -24,3 +24,28 @@
     border: 2px solid rgba(0,0,0,0.1);
     padding: 0.3em 0.8em;
 }
+
+/* css */
+.chipBtn {
+    background-color: transparent;
+    padding : 20px 15px;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    color: grey;
+    cursor: pointer;
+    margin: 8px;
+}
+.cataBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scrollWrapper {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.scrollWrapper img {
+    width: 300px;
+}

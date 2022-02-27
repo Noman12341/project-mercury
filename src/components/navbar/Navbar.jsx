@@ -20,7 +20,7 @@ function Navbar() {
                             What We Are ?
                             <div className="nav-dropdown-container">
                                 <Link className="drop-down-link" to="/about-us">About Us</Link>
-                                <Link className="drop-down-link" to="/">Values</Link>
+                                <Link className="drop-down-link" to="/our-values">Values</Link>
                                 <Link className="drop-down-link" to="/">Management</Link>
                             </div>
                         </div>
